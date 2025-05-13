@@ -14,11 +14,11 @@ We extracted clean, structured text from the official Game Of Thrones series by 
 1) Used "all-MiniLM-L6-v2" to embed text chunks and stored them using FAISS for efficient similarity search.
 2) Retrieval-Augmented Generation Flow:
 
-   a. Input query is embedded.
-   
-    b. Top-k similar chunks are retrieved from FAISS.
-   
-    c. Retrieved context is passed with the query into Zephyr-7B using the HuggingFace pipeline.
+          a. Input query is embedded.
+         
+          b. Top-k similar chunks are retrieved from FAISS.
+         
+          c. Retrieved context is passed with the query into Zephyr-7B using the HuggingFace pipeline.
    
 3) Elected Zephyr-7B-beta for its balanced trade-off between performance and size, integrating it via the HuggingFace transformers pipeline
 
