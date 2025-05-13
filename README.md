@@ -4,7 +4,9 @@ Built a Game of Thrones chatbot using a RAG pipeline powered by Zephyr-7B and a 
 ### Dataset Details
 We extracted clean, structured text from the official Game Of Thrones series by George R.R. Martin, which includes all seven published books. The dataset had:
 • 70+ chapters parsed and chunked
+
 • Named entities like Jon Snow, Ned Stark, Winterfell preserved
+
 • Dialogue, action, and lore-rich narrative which tested retrieval accuracy
 
 ### Architecture Overview
